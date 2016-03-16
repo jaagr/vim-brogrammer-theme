@@ -114,7 +114,7 @@ hi GitGutterChangeDefault ctermfg=244 ctermbg=236 guifg=#bbbb00 guibg=#2f2f2f
 hi GitGutterAddDefault ctermfg=2 ctermbg=236 guifg=#009900 guibg=#2f2f2f
 hi GitGutterDeleteDefault ctermfg=1 ctermbg=236 guifg=#ff2222 guibg=#2f2f2f
 
-if g:brogrammer_nobg
+if exists("g:brogrammer_nobg") && g:brogrammer_nobg
   hi Cursor ctermbg=NONE
   hi Folded ctermbg=NONE
   hi Normal ctermbg=NONE
